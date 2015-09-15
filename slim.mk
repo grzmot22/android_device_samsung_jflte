@@ -4,9 +4,9 @@ $(call inherit-product, device/samsung/jflte/full_jflte.mk)
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit some common SLIM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit some common JDC stuff.
-$(call inherit-product, vendor/jdc/config/common.mk)
+$(call inherit-product, vendor/slim/config/common.mk)
 
-PRODUCT_NAME := cm_jflte
+PRODUCT_NAME := slim_jflte
